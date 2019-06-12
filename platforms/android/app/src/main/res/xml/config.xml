@@ -27,17 +27,17 @@
     <splash density="land-hdpi" src="assets/timg.jpg" />
     <splash density="land-ldpi" src="assets/timg.jpg" />
     <splash density="land-mdpi" src="assets/timg.jpg" />
-    <splash density="port-hdpi" src="assets/timg.jpg" />
-    <splash density="port-ldpi" src="assets/timg.jpg" />
-    <splash density="port-mdpi" src="assets/timg.jpg" />
     <splash density="land-xhdpi" src="assets/timg.jpg" />
     <splash density="land-xxhdpi" src="assets/timg.jpg" />
     <splash density="land-xxxhdpi" src="assets/timg.jpg" />
+    <splash density="port-hdpi" src="assets/timg.jpg" />
+    <splash density="port-ldpi" src="assets/timg.jpg" />
+    <splash density="port-mdpi" src="assets/timg.jpg" />
     <splash density="port-xhdpi" src="assets/timg.jpg" />
     <splash density="port-xxhdpi" src="assets/timg.jpg" />
     <splash density="port-xxxhdpi" src="assets/timg.jpg" />
     <allow-intent href="market:*" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="ShowSplashScreenSpinner" value="false" />
-    <preference name="FadeSplashScreenDuration" value="750" />
+    <preference name="FadeSplashScreenDuration" value="350" />
 </widget>

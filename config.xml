@@ -23,17 +23,16 @@
         <splash src="assets/timg.jpg" density="land-ldpi"/>
         <splash src="assets/timg.jpg" density="land-mdpi"/>
         <splash src="assets/timg.jpg" density="land-xhdpi"/>
+        <splash src="assets/timg.jpg" density="land-xxhdpi"/>
+        <splash src="assets/timg.jpg" density="land-xxxhdpi"/>
         <splash src="assets/timg.jpg" density="port-hdpi"/>
         <splash src="assets/timg.jpg" density="port-ldpi"/>
         <splash src="assets/timg.jpg" density="port-mdpi"/>
-        <splash src="assets/timg.jpg" density="land-xhdpi"/>
-        <splash src="assets/timg.jpg" density="land-xxhdpi"/>
-        <splash src="assets/timg.jpg" density="land-xxxhdpi"/>
         <splash src="assets/timg.jpg" density="port-xhdpi"/>
         <splash src="assets/timg.jpg" density="port-xxhdpi"/>
         <splash src="assets/timg.jpg" density="port-xxxhdpi"/>
         <preference name="ShowSplashScreenSpinner" value="false"/><!--旋转进度条-->
-        <preference name="FadeSplashScreenDuration" value="750"/><!--淡出效果的持续时间（默认是500毫秒），可以进行如下配置-->
+        <preference name="FadeSplashScreenDuration" value="350"/><!--淡出效果的持续时间（默认是500毫秒），可以进行如下配置-->
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
