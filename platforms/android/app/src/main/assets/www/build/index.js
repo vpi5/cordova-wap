@@ -1,0 +1,1 @@
+document.getElementById('span').innerHTML = '当然 JS 也是支持的';

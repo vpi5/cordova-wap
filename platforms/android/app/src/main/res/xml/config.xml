@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>程序人生</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="build/index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="assets/baidu_logo.jpg" />
+    <splash density="land-hdpi" src="assets/timg.jpg" />
+    <splash density="land-ldpi" src="assets/timg.jpg" />
+    <splash density="land-mdpi" src="assets/timg.jpg" />
+    <splash density="port-hdpi" src="assets/timg.jpg" />
+    <splash density="port-ldpi" src="assets/timg.jpg" />
+    <splash density="port-mdpi" src="assets/timg.jpg" />
+    <splash density="land-xhdpi" src="assets/timg.jpg" />
+    <splash density="land-xxhdpi" src="assets/timg.jpg" />
+    <splash density="land-xxxhdpi" src="assets/timg.jpg" />
+    <splash density="port-xhdpi" src="assets/timg.jpg" />
+    <splash density="port-xxhdpi" src="assets/timg.jpg" />
+    <splash density="port-xxxhdpi" src="assets/timg.jpg" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="FadeSplashScreenDuration" value="750" />
+</widget>
